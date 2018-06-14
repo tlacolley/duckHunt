@@ -1,14 +1,41 @@
 
 body {
     position: relative;
-    height: 200px;
+    /* height: 200px; */
+    background-color: rgb(73, 204, 246);
+    cursor: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1JR7gRVEfXw0cJddI46pwGDrHupbVqrXRu3ZYKLC3Om7q394qdQ), default;
 }
 
 #red {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     background-color: red;
     position: absolute;
-    bottom: 0;
+    top: 0;
+    left: 0;
+}
+#yellow {
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#green {
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#pink {
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    position: absolute;
+    top: 0;
     left: 0;
 }
