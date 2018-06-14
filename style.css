@@ -3,9 +3,14 @@ body {
     position: relative;
     /* height: 200px; */
     background-color: rgb(73, 204, 246);
-    cursor: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1JR7gRVEfXw0cJddI46pwGDrHupbVqrXRu3ZYKLC3Om7q394qdQ), default;
-}
+    /* cursor: url(slack-imgs.com.cur), auto; */
+    cursor: crosshair;
 
+}
+header{
+    background-color: white;
+    height: 50px;
+}
 #red {
     width: 25px;
     height: 25px;
@@ -13,6 +18,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 25px
 }
 #yellow {
     width: 25px;
@@ -21,6 +27,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 25px
 }
 #green {
     width: 25px;
@@ -29,6 +36,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+
 }
 
 #pink {
